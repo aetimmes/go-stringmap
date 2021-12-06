@@ -1,4 +1,4 @@
-package stringmap
+package stringmap 
 
 // StringMap stores key/value string pairs. It is always synchronous, but may be
 // stored outside the memory space of the program. For instance, in Redis.

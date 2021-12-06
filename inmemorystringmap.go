@@ -1,4 +1,4 @@
-package stringmap
+package stringmap 
 
 import (
 	"errors"
