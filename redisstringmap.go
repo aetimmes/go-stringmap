@@ -3,7 +3,7 @@ package stringmap
 import (
 	"errors"
 
-	"github.com/go-redis/redis"
+	"github.com/go-redis/redis/v8"
 )
 
 // RedisStringMap is a StringMap implementation that uses Redis as a backing store.
