@@ -26,6 +26,20 @@ http_archive(
 
 load("@bazel_gazelle//:deps.bzl", "gazelle_dependencies", "go_repository")
 
+go_repository(
+    name = "com_github_cespare_xxhash_v2",
+    importpath = "github.com/cespare/xxhash/v2",
+    sum = "h1:YRXhKfTDauu4ajMg1TPgFO5jnlC2HCbmLXMcTG5cbYE=",
+    version = "v2.1.2",
+)
+
+go_repository(
+    name = "com_github_dgryski_go_rendezvous",
+    importpath = "github.com/dgryski/go-rendezvous",
+    sum = "h1:lO4WD4F/rVNCu3HqELle0jiPLLBs70cWOduZpkS1E78=",
+    version = "v0.0.0-20200823014737-9f7001d12a5f",
+)
+
 gazelle_dependencies()
 
 go_repository(
